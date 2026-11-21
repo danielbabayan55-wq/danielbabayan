@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .btn-disabled {
+            background-color: gray;
+            cursor: no-drop;
+
+        }
+
+        button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body class="product_overview">
+    <header class="bg-slate-100">
+        <div class="row flex p-2 justify-between">
+            <div class="col p-1 logo">
+                <div class="wrapper">
+                    <a href="#">Logo</a>
+                </div>
+            </div>
+            <div class="col p-1 search">
+                <div class="wrapper">
+                    <input type="text" class="w-full p-1 rounded-md border-1">
+                </div>
+            </div>
+            <div class="col p-1 logo">
+                <div class="wrapper">
+                    <nav>
+                        <ul class="flex gap-2">
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                            <li><a href="#">link</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero"></section>
+        <section id="product">
+            <div class="row flex flex-wrap product_details px-10">
+                
+            </div>
+
+        </section>
+    </main>
+
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
